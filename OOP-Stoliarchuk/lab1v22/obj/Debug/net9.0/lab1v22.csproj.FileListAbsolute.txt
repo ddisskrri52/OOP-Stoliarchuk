@@ -1,0 +1,14 @@
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\bin\Debug\net9.0\lab1v22.exe
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\bin\Debug\net9.0\lab1v22.deps.json
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\bin\Debug\net9.0\lab1v22.runtimeconfig.json
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\bin\Debug\net9.0\lab1v22.dll
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\bin\Debug\net9.0\lab1v22.pdb
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\lab1v22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\lab1v22.AssemblyInfoInputs.cache
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\lab1v22.AssemblyInfo.cs
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\lab1v22.csproj.CoreCompileInputs.cache
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\lab1v22.dll
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\refint\lab1v22.dll
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\lab1v22.pdb
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\lab1v22.genruntimeconfig.cache
+C:\Users\Katia\OOP-Stoliarchuk\OOP-Stoliarchuk\lab1v22\obj\Debug\net9.0\ref\lab1v22.dll
