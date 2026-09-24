@@ -73,19 +73,19 @@ namespace CarApp
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Console.WriteLine("=== Створення об'єкта через конструктор за замовчуванням ===");
+            Console.WriteLine(" Створення об'єкта через конструктор за замовчуванням ");
             Car defaultCar = new Car();
             defaultCar.StartEngine();
 
-            Console.WriteLine("\n=== Створення об'єкта з коректними даними ===");
+            Console.WriteLine("\n Створення об'єкта з коректними даними ");
             Car tesla = new Car("Tesla", "Model S", 2022);
             tesla.StartEngine();
 
-            Console.WriteLine("\n=== Створення об'єкта з некоректним роком (валідація) ===");
+            Console.WriteLine("\n Створення об'єкта з некоректним роком (валідація) ");
             Car futureCar = new Car("CyberCar", "X", 2035);
             futureCar.StartEngine();
 
-            Console.WriteLine("\n=== Завершення роботи Main ===");
+            Console.WriteLine("\n Завершення роботи Main ");
             GC.Collect();
             GC.WaitForPendingFinalizers();
         }

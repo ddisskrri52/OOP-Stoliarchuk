@@ -21,7 +21,7 @@ namespace Lab3
         {
             _connectionString = connectionString;
             _isConnected = true;
-            Console.WriteLine($"[INIT] З'єднання з БД створено: {_connectionString}");
+            Console.WriteLine($" З'єднання з БД створено: {_connectionString}");
         }
 
         public void ExecuteQuery(string query)
@@ -33,11 +33,11 @@ namespace Lab3
 
             if (_isConnected)
             {
-                Console.WriteLine($"[EXECUTE] Виконання запиту: \"{query}\" через {_connectionString}");
+                Console.WriteLine($" Виконання запиту: \"{query}\" через {_connectionString}");
             }
             else
             {
-                Console.WriteLine("[ERROR] Немає активного з'єднання з БД.");
+                Console.WriteLine(" Немає активного з'єднання з БД.");
             }
         }
 
@@ -47,13 +47,13 @@ namespace Lab3
             {
                 if (disposing)
                 {
-                    Console.WriteLine("[DISPOSE] Звільнення керованих ресурсів...");
+                    Console.WriteLine(" Звільнення керованих ресурсів...");
                 }
 
                 if (_isConnected)
                 {
                     _isConnected = false;
-                    Console.WriteLine($"[DISPOSE] З'єднання з БД закрито: {_connectionString}");
+                    Console.WriteLine($" З'єднання з БД закрито: {_connectionString}");
                 }
 
                 _disposed = true;
@@ -68,7 +68,7 @@ namespace Lab3
 
         ~DatabaseConnection()
         {
-            Console.WriteLine("[FINALIZER] Виклик деструктора (~DatabaseConnection) Garbage Collector'ом!");
+            Console.WriteLine("Виклик деструктора (~DatabaseConnection) Garbage Collector'ом");
             Dispose(false);
         }
     }
@@ -79,18 +79,18 @@ namespace Lab3
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Console.WriteLine("=== 1. Використання блоку using ===");
+            Console.WriteLine(" 1. Використання блоку using ");
             using (var db1 = new DatabaseConnection("Server=ServerA;Database=TestDB;"))
             {
                 db1.ExecuteQuery("SELECT * FROM Users");
             }
 
-            Console.WriteLine("\n=== 2. Явний виклик Dispose() без using ===");
+            Console.WriteLine("\n2. Явний виклик Dispose() без using");
             var db2 = new DatabaseConnection("Server=ServerB;Database=ProdDB;");
             db2.ExecuteQuery("UPDATE Users SET Active = 1");
             db2.Dispose();
 
-            Console.WriteLine("\n=== 3. Демонстрація роботи деструктора через GC.Collect() ===");
+            Console.WriteLine("\n3. Демонстрація роботи деструктора через GC.Collect()");
             CreateAndAbandonObject();
 
             GC.Collect();
