@@ -94,7 +94,6 @@ namespace lab17v2
             {
                 Console.WriteLine($"- {p.Name} (Ціна: {p.Price} грн)");
             }
-
             // пагінація
             Console.WriteLine("\n2. Пагінація: 2 замовлення на сторінку");
             int pageSize = 2;
