@@ -94,7 +94,10 @@ namespace lab17v2
             {
                 Console.WriteLine($"- {p.Name} (Ціна: {p.Price} грн)");
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b99cf198e470b39ffcf844d33f35639d063fa979
             // пагінація
             Console.WriteLine("\n2. Пагінація: 2 замовлення на сторінку");
             int pageSize = 2;
@@ -102,7 +105,11 @@ namespace lab17v2
 
             for (int page = 1; page <= totalPages; page++)
             {
+<<<<<<< HEAD
                 Console.WriteLine($"\n--- Сторінка {page} з {totalPages} ---");
+=======
+                Console.WriteLine($"\nСторінка {page} з {totalPages}");
+>>>>>>> b99cf198e470b39ffcf844d33f35639d063fa979
                 var pageOrders = orders
                     .Skip((page - 1) * pageSize)
                     .Take(pageSize)
