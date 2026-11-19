@@ -1,7 +1,7 @@
 using System.Text;
 using System.Runtime.Serialization;
 
-namespace Lab13V2;
+namespace lab13v2;
 
 internal static class Program
 {

@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
-namespace IndependentWork11;
+namespace IndependentWork17;
 
 // моделі даних
 
